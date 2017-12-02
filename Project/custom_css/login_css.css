@@ -1,0 +1,318 @@
+*{
+	box-sizing: border-box;
+}
+body{
+	font-family: Microsoft JhengHei, sans-serif;
+	background-color: #efefef;
+	margin: 0;
+	padding: 0;
+}
+.navbar{
+	margin-bottom: 0;
+}
+.topnav_css{
+	background-color: #ffffff;
+	box-shadow:4px 4px 12px -2px rgba(20%,20%,40%,0.5);
+}
+.navbar-default label{
+	color: #000;
+}
+.navbar-brand{
+	position: relative;
+	margin: 0;
+	font-size: 22px;
+}
+.navbar-default .navbar-brand{
+	color: #000;
+}
+.navbar-default .navbar-brand:hover, 
+.navbar-default .navbar-brand:focus{
+	background-color: transparent;
+	color: #000;
+}
+.navbar-header a {
+	font-size: 30px;
+	display: flex;
+	align-items: center
+}
+.navbar-header label{
+	font-size: 25px;
+	display: flex;
+	align-items: center;
+	font-weight: bold;
+}
+
+.navbar-default .navbar-nav li a span{
+	color: #000;
+	margin: 0;
+	padding: 0;
+}
+
+.navbar-default .navbar-nav > li > a:hover{
+	background-color: #848484;
+	color: #fff;
+}
+
+
+.navbar-nav li label{
+	font-weight: normal;
+	margin: 0;
+	padding: 0;
+}
+.navbar-nav{
+	font-size: 20px;
+	margin-bottom: 0;
+	margin-top: 0;
+	color: #000;
+}
+
+.navbar-nav li{
+	line-height: 50px;
+}
+
+.navbar-nav li a{
+	color: #000;
+}
+
+.navbar-default .navbar-nav > li > a > label:hover{
+	background-color: #848484;
+	
+}
+
+
+
+
+.topnav_and_form_padding{
+	height: 30%;
+}
+#myForm{
+	margin: 0;
+}
+#content-page{
+	width: 70%;
+}
+.loginbox{
+	border-radius: 5px;
+	background-color: #fff;
+	margin:0px auto;
+}
+.loginbox input{
+	width: 100%;
+}
+.loginbox label{
+	margin: 0;
+	padding: 0;
+}
+.loginbox .form-group{
+	padding: 0;
+}
+.singtext1{
+	font-size: 30px;
+	font-weight: bold;
+	font-family: Microsoft JhengHei, sans-serif;
+}
+.singtext2{
+	font-size: 30px;
+	font-weight: bold;
+	font-family: Ariel Black, Microsoft JhengHei;
+}
+.form_title_padding{
+	padding-top: 20px;
+}
+.form_label{
+	font-size: 24px;
+	color: #000;
+	font-family: Microsoft JhengHei, sans-serif;
+	padding-left: 10px;
+}
+.form_inside_padding0{
+	height: 15px;
+}
+.form_inside_padding2{
+	height: 20px;
+}
+.form_inside_padding3{
+	height: 20px;
+}
+.form_inside_padding4{
+	height: 5px;
+}
+input[type="text"]{
+	height: 40px;
+	border-radius: 20px;
+	font-size: 20px;
+	height: 47px;
+	background-color: #eaeced;
+	border: 0;
+}
+input[type="password"]{
+	height: 40px;
+	border-radius: 20px;
+	font-size: 20px;
+	height: 47px;
+	background-color: #eaeced;
+	border: none;
+}
+.no-border{
+	border: 0;
+	box-shadow: none; 
+}
+.form-control:focus {
+	box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075), 0 0 0px rgba(0, 0, 0, 0);
+	border: none;
+	outline: none;
+}
+.btn {
+	width: 90%;
+}
+.btn-info{
+	background-color: #1ca6ce;
+	font-weight: bold;
+	font-size: 23px;
+}
+.btn-lg.round {
+	border-radius: 20px;
+}
+.form-group{
+	width: 80%;
+	margin: 0 auto;
+}
+@media only screen and (max-width : 1200px) {
+
+}
+@media only screen and (max-width : 875px) {
+
+	#content_padding {
+		height:40%;
+	}
+}
+@media only screen and (max-width : 768px) {
+	.navbar-collapse li a { 
+		font-size: 18px;
+		padding-top: 13px;
+		padding-bottom: 13px;
+	}
+	.navbar-collapse li a label{ 
+		font-weight: bold;
+	}
+
+	.navbar-collapse li a :hover{ 
+		font-weight: bold;
+		color: #fff;
+	}
+	.navbar-header label{
+		padding-left: 0px;
+
+	}
+	#span3,#span2,#span1{
+		display: none;
+	}
+	#content_padding {
+		height: 40%;
+	}
+	.singtext2{
+		font-size: 30px;
+	}
+	.form_label{
+		font-size: 21px;
+	}
+	.btn {
+		width: 80%;
+	}	
+	#content-page{
+		margin: 0;
+		padding: 0;
+		width: 100%;
+	}
+}
+@media only screen and (max-width : 480px) {
+	.navbar-collapse li a { 
+		font-size: 18px;
+		padding-top: 13px;
+		padding-bottom: 13px;
+	}
+	.navbar-collapse li a label{ 
+		font-weight: bold;
+	}
+	.navbar-header label{
+		padding-left: 0px;
+	}
+
+	#content_padding {
+		height: 40%;
+	}
+	.singtext2{
+		font-size: 26px;
+	}
+	.form_label{
+		font-size: 18px;
+	}
+	.btn-info{
+		font-size: 16px;
+	}
+	input[type="text"]{
+		font-size: 16px;
+	}
+	input[type="password"]{
+		font-size: 16px;
+	}
+	.topnav_and_form_padding{
+		height: 0;
+	}
+	.form_inside_padding3{
+		height: 20px;
+	}
+	nav{
+		display: none;
+	}
+	.loginbox{
+		height: 100%;
+	}
+	.form_label{
+		display: none;
+	}
+
+}
+@media only screen and (max-width : 390px) {
+	.singtext2{
+		font-size: 24px;
+	}
+	.form_label{
+		display: none;
+	}
+	.form_inside_padding0{
+		height: 10px;
+	}
+	.form_inside_padding1{
+		height: 7px;
+	}
+	.form_title_padding{
+		padding-bottom: 10px;
+	}
+	.form_inside_padding2{
+		height: 10px;
+	}
+
+	.btn-info{
+		font-size: 14px;
+	}
+}
+@media only screen and (max-width : 320px) {
+	.singtext2{
+		font-size: 20px;
+	}
+}
+@media only screen and (max-width : 280px){
+	.navbar-header a{
+		display: none;
+	}
+	.navbar-header label{
+		padding-left: 5px;
+	}
+	.singtext2{
+		font-size: 17px;
+	}
+	.form_label{
+		display: none;
+	}
+}

@@ -1,0 +1,242 @@
+*{
+	box-sizing: border-box;
+}
+body{
+	font-family: Microsoft JhengHei, sans-serif;
+	background-color: #efefef;
+	margin: 0;
+	padding: 0;
+}
+.navbar{
+	margin-bottom: 0;
+}
+.topnav_css{
+	background-color: #ffffff;
+	box-shadow:4px 4px 12px -2px rgba(20%,20%,40%,0.5);
+}
+.navbar-default label{
+	color: #000;
+}
+.navbar-brand{
+	position: relative;
+	margin: 0;
+	font-size: 22px;
+}
+.navbar-default .navbar-brand{
+	color: #000;
+}
+.navbar-default .navbar-brand:hover, 
+.navbar-default .navbar-brand:focus{
+	background-color: transparent;
+	color: #000;
+}
+.navbar-header a {
+	font-size: 30px;
+	display: flex;
+	align-items: center
+}
+.navbar-header label{
+	font-size: 25px;
+	display: flex;
+	align-items: center;
+	font-weight: bold;
+}
+
+.navbar-default .navbar-nav li a span{
+	color: #000;
+	margin: 0;
+	padding: 0;
+}
+
+.navbar-default .navbar-nav > li > a:hover{
+	background-color: #848484;
+	color: #fff;
+}
+
+
+.navbar-nav li label{
+	font-weight: normal;
+	margin: 0;
+	padding: 0;
+}
+.navbar-nav{
+	font-size: 20px;
+	margin-bottom: 0;
+	margin-top: 0;
+	color: #000;
+}
+
+.navbar-nav li{
+	line-height: 50px;
+}
+
+.navbar-nav li a{
+	color: #000;
+}
+
+.navbar-default .navbar-nav > li > a > label:hover{
+	background-color: #848484;
+	
+}
+
+
+
+.topnav_and_form_padding{
+	height: 15%;
+}
+.register_box{
+	background-color: #fff;
+	margin:0px auto;
+}
+
+#formContent{
+	width: 80%;
+}
+#form_title{
+	font-size: 30px;
+	font-weight: bold;
+	color: #000;
+}
+.register_box label{
+	font-size: 18px;
+	color: #000;
+}
+.register_box span{
+	color: #7f0000;
+}
+.form_inside_padding{
+	height: 20px;
+}
+.form_inside_padding2{
+	height: 10px;
+}
+.form_inside_padding3{
+	height: 10px;
+}
+.form_inside_padding4{
+	height: 10px;
+}
+.form-group input{
+	background-color: #eaeced;
+	border: none;
+}
+.form-group span{
+	margin-bottom: 0px;
+}
+.form-control:focus {
+	box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075), 0 0 0px rgba(0, 0, 0, 0);
+	border: none;
+	outline: none;
+}
+.btn {
+	width: 90%;
+}
+.btn-info{
+	background-color: #1ca6ce;
+	font-weight: bold;
+	font-size: 23px;
+}
+.btn-lg.round {
+	border-radius: 20px;
+}
+.form-group{
+	width: 80%;
+	margin: 0 auto;
+}
+
+@media only screen and (max-width : 1200px) {
+
+}
+@media only screen and (max-width : 875px) {
+
+}
+@media only screen and (max-width : 768px) {
+	.navbar-collapse li a { 
+		font-size: 18px;
+		padding-top: 13px;
+		padding-bottom: 13px;
+	}
+	.navbar-collapse li a label{ 
+		font-weight: bold;
+	}
+
+	.navbar-collapse li a :hover{ 
+		font-weight: bold;
+		color: #fff;
+	}
+	.navbar-header label{
+		padding-left: 0px;
+	}
+	#span1,#span2,#span3{
+		display: none;
+	}
+	#formContent{
+		width: 100%;
+		margin: 0;
+		padding: 0;
+	}
+}
+@media only screen and (max-width : 480px) {
+	.navbar-collapse li a { 
+		font-size: 18px;
+		padding-top: 13px;
+		padding-bottom: 13px;
+	}
+	.navbar-collapse li a label{ 
+		font-weight: bold;
+	}
+	.navbar-header label{
+		padding-left: 0px;
+	}
+	nav{
+		display: none;
+	}
+	.topnav_and_form_padding{
+		height: 0;
+	}
+	#form_title{
+		font-size: 24px;
+	}
+	.form_inside_padding2{
+		height: 20px;
+	}
+	.form_inside_padding3{
+		height: 10px;
+	}
+	.form_inside_padding4{
+		height: 0px;
+	}
+	#formContent{
+		height: 100%;
+	}
+	.form-group label{
+		display: none;
+	}
+	.form-group{
+		padding-bottom: 15px;
+	}
+	.form-group input{
+		height: 42px;
+	}
+	.btn{
+		width: 80%;
+	}
+	.btn-info{
+		font-size: 18px;
+	}
+}
+@media only screen and (max-width : 390px) {
+
+}
+@media only screen and (max-width : 320px) {
+
+}
+@media only screen and (max-width : 280px){
+	.navbar-header a{
+		display: none;
+	}
+	.navbar-header label{
+		padding-left: 5px;
+	}
+
+}
